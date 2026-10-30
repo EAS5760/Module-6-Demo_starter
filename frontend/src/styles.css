@@ -1,0 +1,21 @@
+body { margin: 0; }
+button, input { font: inherit; }
+.summary-section { margin-top: 3rem; }
+.summary-section h2 { font-size: 1.35rem; }
+.summary-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.summary-card {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid #d6ddd5;
+  border-radius: 12px;
+  background: #edf1e9;
+}
+.summary-card h3 { margin: 0 0 .5rem; }
+.summary-card p { margin: 0; overflow-wrap: anywhere; }
+/* DEMO 3 TODO: add @media (min-width: 768px) and use repeat(3, 1fr).
+   For the temporary overflow example, add width: 900px to .summary-grid,
+   inspect at 375px, then REMOVE that width before continuing. */
